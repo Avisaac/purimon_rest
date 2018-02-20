@@ -34,7 +34,7 @@ const sortedChildren = [
 ];
 
 exports.check = function() {
-  console.log('check')
+  res.send('success')
   
 };
 
