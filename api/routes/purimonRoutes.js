@@ -4,5 +4,5 @@ module.exports = function(app) {
 
   app.route('/test')
     .get(purimon.check)
-    .post(purimon.validatAnswer);
+    .post(purimon.validateAnswer);
 };
