@@ -56,7 +56,7 @@ exports.validateAnswer = function(req, res) {
   // })
 
   let result;
-  isOrdered(familyData, sortedChildren) ? res.send("key to lock") : res.send("incorrect answer")
+  isOrdered(familyData, sortedChildren) ? res.send("key combination to lock") : res.send("incorrect answer")
 };
 
 function isOrdered(answer, correctAnswer) {
